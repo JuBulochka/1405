@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+
+  .navbar__btn ul {
+    display: flex;
+    gap: 50px;
+  }
+
+  .navbar__sign ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .navbar__logo {
+    display: flex;
+    gap: 5px;
+
+    p {
+      color: #0B132A;
+      font-family: "Rubik", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      span {
+        color: #0B132A;
+        font-family: "Rubik", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+
+  .navbar__btn a {
+    color: #4F5665;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .navbar__sign ul:nth-child(1) a {
+    color: #0B132A;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .navbar__sign ul:nth-child(2) a {
+    color: $red-color;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+
+    a {
+      padding: 13px 45px;
+    }
+  }
+}
